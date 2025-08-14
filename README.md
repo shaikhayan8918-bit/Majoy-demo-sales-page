@@ -215,15 +215,79 @@
         
         @media (max-width: 768px) {
             .hero h1 {
-                font-size: 2em;
+                font-size: 1.8em;
+                line-height: 1.3;
+            }
+            
+            .hero h2 {
+                font-size: 1.1em;
+                line-height: 1.4;
             }
             
             .container {
-                padding: 10px;
+                padding: 5px;
+                margin: 0;
             }
             
             .section {
+                padding: 25px 15px;
+            }
+            
+            .section h2 {
+                font-size: 1.5em;
+                line-height: 1.3;
+            }
+            
+            .cta-primary {
+                padding: 15px 25px;
+                font-size: 1.1em;
+                width: 100%;
+                max-width: 300px;
+            }
+            
+            .vsl-icon {
+                padding: 15px 25px;
+                width: 100%;
+                max-width: 280px;
+            }
+            
+            .play-button {
+                width: 50px;
+                height: 50px;
+            }
+            
+            .play-button::after {
+                border-left: 15px solid white;
+                border-top: 10px solid transparent;
+                border-bottom: 10px solid transparent;
+            }
+            
+            .bullet-point, .faq, .highlight, .testimonial, .guarantee, .urgency {
+                margin: 15px 0;
+                padding: 15px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .hero h1 {
+                font-size: 1.5em;
+            }
+            
+            .hero h2 {
+                font-size: 1em;
+            }
+            
+            .section h2 {
+                font-size: 1.3em;
+            }
+            
+            .hero {
                 padding: 30px 15px;
+            }
+            
+            .preheader {
+                font-size: 0.9em;
+                padding: 8px;
             }
         }
     </style>
